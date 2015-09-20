@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="SalaDeSport.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>The Gym</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">The Gym</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul runat="server" id="navunregistered" class="nav navbar-nav navbar-right" visible="false">
+                    <li><a href="Login.aspx">Login</a></li>
+                    <li><a href="Register.aspx">Register</a></li>
+                </ul>
+                <ul runat="server" id="navgymnast" class="nav navbar-nav navbar-right" visible="false">
+                    <li><a href="Program.aspx">Program</a></li>
+                    <li><a href="Logout.aspx">Log Out</a></li>
+                </ul>
+                <ul runat="server" id="navtrainer" class="nav navbar-nav navbar-right" visible="false">
+                    <li><a href="Program.aspx">Program</a></li>
+                    <li><a href="AddNewTraining.aspx">NewTraining</a></li>
+                    <li><a href="Logout.aspx">Log Out</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <form id="form1" runat="server">
+        <div style="padding-top: 70px;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+</body>
+<script src="Scripts/jquery-2.1.4.js"></script>
+<script src="Scripts/bootstrap.js"></script>
+
+
+</html>

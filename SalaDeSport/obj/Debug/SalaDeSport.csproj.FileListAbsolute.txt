@@ -1,0 +1,6 @@
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\SalaDeSport\SalaDeSport\bin\SalaDeSport.dll.config
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\SalaDeSport\SalaDeSport\bin\SalaDeSport.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\SalaDeSport\SalaDeSport\bin\SalaDeSport.pdb
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\SalaDeSport\SalaDeSport\obj\Debug\SalaDeSport.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\SalaDeSport\SalaDeSport\obj\Debug\SalaDeSport.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\SalaDeSport\SalaDeSport\obj\Debug\SalaDeSport.pdb
